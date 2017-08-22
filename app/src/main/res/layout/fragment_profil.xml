@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="id.co.imastudio.santri.hulanthalotourisemplace.Profil">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/profill"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            />
+        <TextView
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="E-Wisata V1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="@color/cardview_dark_background"
+            android:background="@color/windowBackground"/>
+       <TextView
+           android:gravity="center"
+           android:textSize="20dp"
+           android:text="Developer : Basri Umar"
+           android:layout_width="match_parent"
+           android:layout_height="30dp"
+           android:textColor="@color/cardview_dark_background"
+           android:background="@color/windowBackground"/>
+    </LinearLayout>
+
+</FrameLayout>
